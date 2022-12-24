@@ -1,0 +1,29 @@
+/* ---- reset ---- */
+.sparkle {}
+
+.font {
+  color: #ec0d0d;
+  font-size: 20px;
+  position: absolute;
+  text-align: center;
+  bottom: 10px;
+  font-weight: 600;
+  font-size: 28px;
+  font-family: "黑体";
+  color: #8c888b;
+  background: -webkit-linear-gradient(45deg, #58eff6, #f17840, #eac821, #4913ea, #bed5f5);
+  color: transparent;
+  -webkit-background-clip: text;
+  animation: ran 5s linear infinite;
+  justify-content: center;
+  transform: translate(170%, -40%);
+}
+
+  @keyframes ran {
+    from {
+      backgroud-position: 0 0;
+    }
+    to {
+      background-position: 2000px 0;
+    }
+  }
