@@ -1,8 +1,7 @@
 "use strict";
-// Inspired By
-// https://codepen.io/abeatrize/pen/LJqYey
+
 var _a, _b;
-// Bongo Cat originally created by @StrayRogue and @DitzyFlama
+
 const ID = "bongo-cat";
 const s = (selector) => `#${ID} ${selector}`;
 const notes = document.querySelectorAll(".note");
@@ -42,7 +41,7 @@ tl.add(animatePawState(cat.pawLeft.up), "start")
     .add(animatePawState(cat.pawRight.up), "start+=0.19")
     .timeScale(1.6);
 gsap.from(".terminal-code line", {
-    drawSVG: "0%",
+    //drawSVG: "0%",
     duration: 0.1,
     stagger: 0.1,
     ease: "none",
