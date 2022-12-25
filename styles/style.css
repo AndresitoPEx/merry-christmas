@@ -1,0 +1,101 @@
+
+
+#gif1{
+    position: absolute;
+    top: 4em;
+    left: 47.5em;
+    width: 5em;
+    height: 5em;
+}
+#gif2 {
+    position: absolute;
+    top: 10em;
+    left: 80em;
+    width: 10em;
+    height: 10em;
+}
+#gif3 {
+    position: absolute;
+    top: 200px;
+    left: 5em;
+    width: 10em;
+    height: 14em;
+  }
+  #gif4{
+    position: absolute;
+    top: 30em;
+    left: 15em;
+    width: 14em;
+    height: 14em;
+  }
+  #gif5 {
+    position: absolute;
+    top: 25em;
+    left: 70em;
+    width: 20em;
+    height: 15em;
+  }
+  #gif6 {
+    position: absolute;
+    top: 35em;
+    left: 40em;
+    width: 20em;
+    height: 15em;
+  }
+  #scene{
+    position: absolute;
+    top: 6em;
+    left: 33.8em;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  #audio {
+    
+    position: absolute;
+    bottom: 30em;
+    left: 20em;
+    overflow: hidden;
+  }
+  #audio::-webkit-media-controls-panel {
+    background-color: #00FFFF; /* color de fondo del panel */
+    border: 2px solid #FF00FF; /* borde del panel */
+    border-radius: 5px; /* borde redondeado del panel */
+  }
+  #audio::-webkit-media-controls {
+    font-family: 'Cursive', sans-serif;
+    font-size: 20px;
+    /* cambia el color de los controles */
+    color: #FFFFFF;
+  }
+ #btn{
+  background: #FF0000;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  font-family: 'Cursive', sans-serif;
+  font-size: 20px;
+  position: absolute;
+  bottom: 30em;
+  left: 25em;
+  overflow: hidden;
+  animation: blink 1s infinite;
+ } 
+ #btn2{
+  background: #FF0000;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  font-family: 'Cursive', sans-serif;
+  font-size: 20px;
+  position: absolute;
+  bottom: 30em;
+  left: 47em;
+  overflow: hidden;
+  animation: blink 1s infinite;
+ } 
+ @keyframes blink {
+  50% {
+    background: #FFFFFF; /* blanco */
+  }
+}
+
